@@ -1,0 +1,100 @@
+#header {
+    background-color: #494a48 ;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+#logo {
+    flex-grow: 1;
+    margin-left: 150px;
+}
+
+#logo > div {
+    flex-grow: 1;
+    margin-left: 20px;
+    width: 200px;
+    height: 100px;
+    background-image: url(./image/Artboard1.png);
+    background-position: center;
+    background-size: auto;
+    background-position:  0 -40px;
+}
+
+.textHeader {
+    display: flex;
+    align-items: center;
+}
+
+.textHeader-a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    font-size: 17px;
+    font-style: sans-serif;
+}
+
+.textHeader > li {
+    list-style: none;
+}
+
+.fas::before{
+    color:white;
+}
+
+#icon {
+    display: flex;
+    align-items: center;
+    padding-right: 200px;
+}
+
+#icon > a {
+    margin: 0 5px;
+}
+.textHeader > li:hover {
+    border-bottom: rgb(255, 255, 255) 1px solid;
+}
+
+.textHeader > li:nth-child(1):hover {
+    border-bottom: none;
+}
+
+.main {
+    margin: 0 10px;
+}
+
+.textHeader li:hover > ul {
+    display: block;
+}
+
+.submenu, .menu {
+    display: none;
+}
+
+.menu{
+    position: absolute;
+    left: -40px;
+    padding-top: 10px;
+}
+
+.main-menu {
+    position: relative;
+}
+
+.li-2 {
+    background: rgba(32, 32, 32, 0.85);
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 10px 15px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+    font-family: 'PN', sans-serif;
+    list-style: none;
+    width: 130px;
+}
+
+.submenu {
+    position: absolute;
+    top: 10px;
+    padding-left: 150px;
+}
